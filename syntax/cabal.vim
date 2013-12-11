@@ -12,7 +12,7 @@ highlight default link cabalSectionLabel cabalLabel
 
 "{{{1 Properties
 syntax region cabalPropertyValue matchgroup=cabalPropertyField start='\v^\z(\s*)\k+\s*\:' end='\v\ze\n%(\s{-}\z1@!)=\S' contains=@Spell
-highlight default link cabalPropertyValue NONE
+highlight default link cabalPropertyValue cabalString
 highlight default link cabalPropertyField cabalIdentifier
 
 "{{{1 Conditionals
